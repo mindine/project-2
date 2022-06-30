@@ -18,7 +18,7 @@ function valuesInObject(obj) {
   // your code here
   let arr = [];
   for (let keys in obj) {
-    // arr.push(obj[keys]);
+    // arr.push(obj[keys]); //array[i]
   }
   arr = Object.values(obj);
   return arr;
