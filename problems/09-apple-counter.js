@@ -1,7 +1,7 @@
 /***********************************************************************
-Write a function `appleCounter(appleObj)` that takes in an object containing a 
+Write a function `appleCounter(appleObj)` that takes in an object containing a
 number of keys that have the word 'apple' contained within them. The `appleCounter`
-function will be in charge of returning the number of keys that contain the word 
+function will be in charge of returning the number of keys that contain the word
 "apple".
 
 **Hint**: you may want to take all the keys and lower case them for easier
@@ -45,7 +45,7 @@ function appleCounter(appleObj) {
 
 
 
-let obj = { banana: "yay!" };
+/*let obj = { banana: "yay!" };
 console.log(appleCounter(obj)); // => 0
 
 let obj1 = { crabapple: "yum!" };
